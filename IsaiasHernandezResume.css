@@ -240,7 +240,7 @@
   }
   
   .surf-report {
-    background-image: url("https://static.fullstack-bootcamp.com/webinar/02-portfolio-4.jpg");
+    background-image: url("/Users/isaachernandez/Documents/ResumeWebsite/img/CodingBanner.JPG");
   }
   
   @media screen and (max-width: 980px) {
@@ -286,7 +286,7 @@
       min-height: 150px;
     }
   
-    .hero-banner {
+    .resume-banner {
       justify-content: center;
       text-align: center;
     }
