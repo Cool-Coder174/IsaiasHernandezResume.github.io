@@ -240,7 +240,7 @@
   }
   
   .surf-report {
-    background-image: url("/Users/isaachernandez/Documents/GitHub/ResumeWebsite/img/CodingBanner.JPG");
+    background-image: url("./img/CodingBanner.JPG");
   }
   
   @media screen and (max-width: 980px) {
