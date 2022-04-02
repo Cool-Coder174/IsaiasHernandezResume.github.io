@@ -90,7 +90,7 @@
     width: auto;
     height: auto;
     /* background: rgb(68, 88, 120); */
-    background-image:  url("/Users/isaachernandez/Documents/GitHub/ResumeWebsite/img/ResumeBanner.JPG");
+    background-image:  url("./img/ResumeBanner.JPG");
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
