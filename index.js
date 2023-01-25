@@ -10,7 +10,7 @@ import { Line2 } from "three/examples/jsm/lines/Line2";
 
 
 
-//document.getElementById("about").textContent="Changed Text";
+document.getElementById("about").textContent="Changed Text";
 
 
 // Core boilerplate code deps
