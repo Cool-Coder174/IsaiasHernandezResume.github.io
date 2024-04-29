@@ -244,7 +244,8 @@
   }
   
   .led-wall {
-    background-image: url("https://static.fullstack-bootcamp.com/webinar/02-portfolio-1.jpg");
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM25pN2ZpbHJldm40MW5zemYwdzJsajhyejYzZ3NscWljamU5ejBybCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nSiNho356rXH2/giphy.gif");
+    background-position: center;
   }
   
   .react-calc {
