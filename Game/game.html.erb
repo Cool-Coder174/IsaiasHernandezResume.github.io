@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="game.css">
+    </head>
+   <body>
+ <!-- Match the SCSS variables here -->
+<div>
+  <ul>
+    <li>rows = 9</li>
+    <li>cols = 9</li>
+    <li>count = rows * cols</li>
+  </ul>
+  <form>
+    <% count.times do |i| %>
+        <input type="checkbox" id="c<%= i + 1 %>">
+        <input type="checkbox" id="f<%= i + 1 %>">
+    <% end %>
+
+    <input type="radio" name="mode" id="modeMine" checked>
+    <input type="radio" name="mode" id="modeFlag">
+
+    <div class="actionSelector">
+      <label for="modeMine">⛏</label>
+      <label for="modeFlag">🚩</label>
+    </div>
+
+    <div class="grid">
+      <% count.times do |i| %>
+        <label for="c<%= i + 1 %>"></label>
+      <% end %>
+      <div class="flags">
+        <% count.times do |i| %>
+          <label for="f<%= i + 1 %>"></label>
+        <% end %>
+      </div>
+      <button class="error" type="reset" tabindex="-1">
+        Ooohhh 🙁<br>
+        Click to try again
+      </button>
+      <button class="victory" type="reset" tabindex="-1">
+        👌👀✔💯💯💯<br>
+        Click to restart
+      </button>
+    </div>
+
+    <div class="infos">
+      <div class="counter"></div>
+      <div class="timer">
+        <% 3.times do %>
+          <div class="digit"></div>
+        <% end %>
+        <div class="separator"></div>
+        <% 2.times do %>
+          <div class="digit"></div>
+        <% end %>
+      </div>
+    </div>
+  </form>
+</div>
+
+  </body>
+   
+</html>
+
+  
+
