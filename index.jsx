@@ -1,1 +1,0 @@
-document.getElementById("about").textContent="Changed Text";
