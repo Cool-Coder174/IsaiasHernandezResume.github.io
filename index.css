@@ -90,7 +90,7 @@
     width: auto;
     height: auto;
     /* background: rgb(68, 88, 120); */
-    background-image:  url("./img/ResumeBanner.JPG");
+    background-image:  url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzN5Mnp5M3Z3djUxM3lvcHp5eHA4NTBjeXc0b3Z4Y3oxdm11cDJ4cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0K4ooVdfUdgWWZ8c/giphy.gif");
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -239,7 +239,8 @@
   }
   
   .run-buddy {
-    background-image: url("https://static.fullstack-bootcamp.com/webinar/02-run-buddy.jpg");
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnp6a3JjbmhleTE0d2hlNjFyNDFqN2M2ZmF4NHM3dHBsdXM2dTc2dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l41Yy6jvn3BXYDRu0/giphy.gif");
+    background-position: center;
   }
   
   .led-wall {
@@ -247,15 +248,17 @@
   }
   
   .react-calc {
-    background-image: url("https://static.fullstack-bootcamp.com/webinar/02-portfolio-2.jpg");
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzhlc3dwd2R1YWd6aGZhb210bGNsaDJsemxnY3lmencydWxjdW9wcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/80dMTvZnBZZo3xLwdz/giphy.gif");
+    background-position: center;
   }
   
   .pastel-puzzles {
-    background-image: url("https://static.fullstack-bootcamp.com/webinar/02-portfolio-3.jpg");
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmpwNmk0bWcza3YzOG11OHNlaHJ2aHNjZzM2c2NpaTRhbXBlY2ltOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f0tufxEr372ZLuA07V/giphy.gif");
+    background-position: center;
   }
   
   .surf-report {
-    background-image: url("./img/CodingBanner.JPG");
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2o4eXo1ZjBxaTFoYnRyZGY2bngxaDRsdmpzY3k5dGRtN2R2dzl6MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.gif");
   }
   
   @media screen and (max-width: 980px) {
